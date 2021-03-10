@@ -36,5 +36,5 @@ int main(){
     int k;
     cout<<"Insira o K:";
     cin>>k;
-    cout << quickSelection(vetor, 0, num-1, 5);
+    cout << quickSelection(vetor, 0, num-1, k);
 }
